@@ -1,0 +1,52 @@
+/* 全体中央寄せ */
+.thanks-container {
+    position: relative;
+        height: calc(100vh - 120px);
+        /* ← ヘッダー分引く */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* ← 縦中央🔥 */
+        align-items: center;
+        /* ← 横中央 */
+        text-align: center;
+}
+
+/* 背景の Thank you */
+.thanks-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        /* ← 完全中央 */
+
+    font-size: 180px;
+    color: rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    z-index: 0;
+}
+
+/* メインメッセージ */
+.thanks-message {
+    z-index: 1;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* ボタン */
+.home-btn {
+    position: relative;
+    z-index: 1;
+
+    display: inline-block;
+    background-color: #8b7969;
+    color: #fff;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* ホバー */
+.home-btn:hover {
+    background-color: #756658;
+}

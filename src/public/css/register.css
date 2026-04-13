@@ -1,0 +1,133 @@
+body {
+    background: #f1ece7;
+    color: #8b7969;
+    font-family: serif;
+}
+
+.header {
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #e5ddd5;
+}
+
+.header__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+    color: #8b7969;
+}
+
+.header__link {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 14px;
+    border: 1px solid #d9cfc6;
+    background: #f7f3ef;
+    color: #c2a995;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.register-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+.register-page__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #8b7969;
+}
+
+.register-card {
+    width: 680px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #d9cfc6;
+    border-radius: 8px;
+    padding: 60px 100px 80px;
+    box-sizing: border-box;
+}
+
+.register-form__group {
+    margin-bottom: 42px;
+}
+
+.register-form__label {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 14px;
+    color: #8b7969;
+}
+
+.register-form__input {
+    width: 100%;
+    height: 54px;
+    padding: 0 18px;
+    border: none;
+    background: #f4f4f4;
+    color: #8b7969;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.register-form__input::placeholder {
+    color: #c7b9ad;
+}
+
+.register-form__button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.register-form__button-submit {
+    min-width: 120px;
+    height: 46px;
+    padding: 0 24px;
+    border: none;
+    background: #8b7969;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register-form__button-submit:hover {
+    opacity: 0.9;
+}
+
+.header__link {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px 14px;
+    border: 1px solid #d9cfc6;
+    background: #f7f3ef;
+    color: #c2a995;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.input-error {
+    border: 1px solid #ff4d4d;
+    background-color: #fff5f5;
+}
